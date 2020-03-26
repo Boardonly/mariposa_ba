@@ -66,7 +66,6 @@ p {
 }
 .main-content-wrapper {
   padding-left: 173px;
-  padding-right: 100px;
 }
 
 .ba-caring-animals {
@@ -74,8 +73,8 @@ p {
   margin: 0 0 318px;
 }
 .ba-caring-animals p {
-	max-width: 639px;
-	margin: 0 0 16px;
+  max-width: 639px;
+  margin: 0 0 16px;
 }
 .ba-caring-animals [type="submit"] {
   font-family: "Poppins", sans-serif;
@@ -91,18 +90,29 @@ p {
   margin: 16px 24px 0 0;
 }
 .ba-caring-animals [type="submit"]:hover {
-	background: rgba(253, 180, 97, 0.82);
-	border: none;
-	padding: 12px;
+  background: rgba(253, 180, 97, 0.82);
+  border: none;
+  padding: 12px;
 }
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
-ba-finding-friends{
-	max-width: 713px;
+ba-finding-friends {
+  max-width: 713px;
 }
 .ba-text-wrapper {
-	color: #ffffff;
-	padding-left: 480px;
-	width: 100%;
+  color: #ffffff;
+  margin-left: 540px;
+  max-width: 100%;
+}
+.ba-text-wrapper a {
+  position: relative;
+  text-decoration: none;
+  color: rgba(253, 180, 97, 0.82);
+  border-bottom: 1px solid rgba(253, 180, 97, 0.82);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 100px;
 }
 
 .ba-foto-wrapper {
@@ -111,7 +121,50 @@ ba-finding-friends{
 .ba-foto-wrapper img {
   position: absolute;
   height: 380px;
-  width: 270px;
+  width: 275px;
   box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.35);
   border-radius: 8px;
+  cursor: pointer;
+}
+
+#Brown_dog {
+ 
+  top: -30px;
+  z-index: 2;
+}
+#White_dog {
+  left: 45px;
+  top: 310px;
+}
+#sleepping_cat {
+	left: 213px;
+	top: 132px;
+  z-index: 1;
+}
+.ba-funny-pug {
+  position: relative;
+  margin-left: 85px;
+  margin-top: 115px;
+  margin-left: 90px;
+  font-style: italic;
+}
+
+.ba-funny-pug p {
+  font-style: italic;
+}
+.ba-funny-pug cite {
+  color: rgba(255, 255, 255, 0.6);
+}
+.ba-funny-pug img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  position: absolute;
+  left: -85px;
+}
+.ba-footer {
+  margin-top: 120px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
 }
